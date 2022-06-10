@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Test title post"
+sub-title: "Example sub-title 2"
+date: 2022-06-09 12:33:00 -04
+permalink: "/new_post/"
+location: Test location
+ordinal: 2
+---
+We include just a little bit of text in this post for the pre-amble, which we should really include as metadata above
+
+Below this we include more text which also comes with a ~~sidenote of dubious origin.~~

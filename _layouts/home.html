@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  <div class="d-block d-md-none pb-5">
+      <nav class="p-0 navbar fixed-top bg-custom navbar-dark navbar-expand-lg navigation">
+          <a class="py-2 px-3 text-decoration-none w-100 ml-auto" data-toggle="collapse" href="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              >>>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="d-flex">
+                  <ul class="navbar-nav list-inline mx-auto justify-content-center">
+                      <li class="pb-1 nav-item glow-image">
+                          <a class="text-decoration-none" href="{{ site.url }}">
+                              > home
+                          </a>
+                      </li>
+                      <li class="py-1 pb-4 nav-item glow-image">
+                          <a class="text-decoration-none" href="https://en.wikipedia.org/wiki/Special:Random">
+                              > somewhere else
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </div>
+
+  <div class="row justify-content-center py-5 px-4">
+      <div class="col col-lg-10 col-md-12 col-sm-12 col-12">
+          
+          <!-- title and subtitle -->
+          <div class="row justify-content-center no-gutters">
+              <div class="col col-12">
+                  <!-- Display for mobile -->
+                  <div class="d-md-none">
+                      <h2 class="glow-title">
+                          <div class="d-md-none"></div>
+                          <a class="text-decoration-none" href="{{ site.url }}">
+                              {{ page.main-title | escape }}
+                          </a>
+                      </h2>
+                      <div>
+                          <p class="glow-subtitle">
+                              {{ page.sub-title | escape }}
+                          </p>
+                      </div>
+                  </div>
+                  <!-- Display on larger devices -->
+                  <div class="d-none d-md-block">
+                      <h2 class="glow-title">
+                          <a class="text-decoration-none right-title" href="{{ site.url }}">
+                              {{ page.main-title | escape }}
+                          </a>
+                      </h2>
+                      <div>
+                          <p class="glow-subtitle right-title sub-title">
+                              {{ page.sub-title | escape }}
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          {% assign posts = site.posts %}
+
+          <!-- main messages -->
+          <div class="row no-gutters">
+              <!-- Beginning of posts -->
+              {%- if posts.size > 0 -%}
+                  {%- for post in posts -%}
+                      {%- assign date_format = "%m/%d/%y, %H:%M" -%}
+                      {%- assign w = post.date | date: "%w" -%}
+                      <div class="col col-12 pt-3">
+                          <div class="code-box">
+                              <!-- Display for mobile -->
+                              <div class="d-md-none">
+                                  <p class="post-mobile">
+                                      <span class="post-title">
+                                          <a href="{{ post.url | relative_url }}">
+                                              §{{ post.ordinal | escape }}. {{ post.title | escape }} >>>
+                                          </a>
+                                      </span><br>
+                                      <a class="excerpt-link" href="{{ post.url | relative_url }}">
+                                          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                                      </a>
+                                  </p>
+                              </div>
+                              <!-- Display on larger devices -->
+                              <div class="d-none d-md-block">
+                                  <p class="left-post">
+                                      {{ post.date | date: "%A" }}
+                                      <!-- Japanese weekday glyph -->
+                                      {% case w %}
+                                          {% when '0' %}(日)
+                                          {% when '1' %}(月)
+                                          {% when '2' %}(火)
+                                          {% when '3' %}(水)
+                                          {% when '4' %}(木)
+                                          {% when '5' %}(金)
+                                          {% when '6' %}(土)
+                                      {% endcase %}
+                                      <br>
+                                      {{ post.date | date: date_format }}<br>
+                                      {{ post.location | escape }}
+                                  </p>
+                                  <p class="right-post">
+                                      <span class="post-title">
+                                          <a href="{{ post.url | relative_url }}">
+                                              §{{ post.ordinal | escape }}. {{ post.title | escape }} >>>
+                                          </a>
+                                      </span><br>
+                                      <a class="excerpt-link" href="{{ post.url | relative_url }}">
+                                          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                                      </a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  {%- endfor -%}
+              {%- endif -%}
+              <!-- End of posts. -->
+          </div>
+      </div>
+  </div>
+</div>

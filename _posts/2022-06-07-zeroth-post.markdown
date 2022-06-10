@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Test title post"
+sub-title: "Example sub-title 0"
+date: 2022-06-07 12:45:00 -04
+permalink: "/zero/"
+location: Test location
+ordinal: 0
+---
+This is some example of the content of a post, which we should be able to show as a snippet on the main page. Otherwise we're left to writing the rest of this post in the main body of the markdown file. Final test.
+
+For example, this is the second paragraph, which shouldn't appear in the preview snippet. We can also try to introduce a sidenote Here we place the sidenote in the syntaxt that markdown expects to use for strikethroughs. We can continue on as if nothing happened. We seem to have some spacing issues though.
+
+-fig This is some figure text. fig-![image-title](/assets/img/grief_10.jpg)
+{: .right-para }
+
+Here is another paragraph afterwards
+
+Here is a paragraph thats made to look like a quote environment
+{: .quote}
