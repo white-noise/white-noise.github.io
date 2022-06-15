@@ -41,7 +41,7 @@ layout: default
                       <h2 class="glow-title">
                           <div class="d-md-none"></div>
                           <a class="text-decoration-none" href="{{ site.url }}">
-                              {{ page.main-title | escape }}
+                              {{ page.main-title }}
                           </a>
                       </h2>
                       <div>
@@ -54,7 +54,7 @@ layout: default
                   <div class="d-none d-md-block">
                       <h2 class="glow-title">
                           <a class="text-decoration-none right-title" href="{{ site.url }}">
-                              {{ page.main-title | escape }}
+                              {{ page.main-title }}
                           </a>
                       </h2>
                       <div>
@@ -82,11 +82,11 @@ layout: default
                                   <p class="post-mobile">
                                       <span class="post-title">
                                           <a href="{{ post.url | relative_url }}">
-                                              §{{ post.ordinal | escape }}. {{ post.title | escape }} >>>
+                                              §{{ post.ordinal | escape }}. {{ post.title | escape }} >>
                                           </a>
                                       </span><br>
                                       <a class="excerpt-link" href="{{ post.url | relative_url }}">
-                                          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                                          {{ post.preview }}
                                       </a>
                                   </p>
                               </div>
@@ -111,11 +111,11 @@ layout: default
                                   <p class="right-post">
                                       <span class="post-title">
                                           <a href="{{ post.url | relative_url }}">
-                                              §{{ post.ordinal | escape }}. {{ post.title | escape }} >>>
+                                              §{{ post.ordinal | escape }}. {{ post.title | escape }} >>
                                           </a>
                                       </span><br>
                                       <a class="excerpt-link" href="{{ post.url | relative_url }}">
-                                          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                                          {{ post.preview }}
                                       </a>
                                   </p>
                               </div>
@@ -124,6 +124,25 @@ layout: default
                   {%- endfor -%}
               {%- endif -%}
               <!-- End of posts. -->
+              <div class="col col-12 pt-3">
+                  <div class="code-box">
+                      <!-- Display for mobile -->
+                      <div class="d-md-none">
+                          <p class="post-mobile-dull">
+                              {{ page.end-content }}
+                          </p>
+                      </div>
+                      <!-- Display on larger devices -->
+                      <div class="d-none d-md-block">
+                          <p class="left-post">
+                              
+                          </p>
+                          <p class="right-post-dull">
+                              {{ page.end-content }}
+                          </p>
+                      </div>
+                  </div>
+              </div>
           </div>
       </div>
   </div>

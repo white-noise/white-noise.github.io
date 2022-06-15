@@ -84,13 +84,18 @@ a:hover {
 }
 
 .post-title {
-    color: var(--main-text-bright);
+    color: var(--main-text);
+}
+
+.post-title a {
+    color: var(--main-text) !important;
 }
 
 .right-title {
     margin-left: 30%;
     width: 70%;
     padding-left: 1rem;
+    display: block;
 }
 
 .sub-title {
@@ -107,6 +112,18 @@ a:hover {
     width: 70%; 
     border-left: 2px solid var(--code-border); 
     min-height: 4.5em;
+}
+
+.right-post-dull {
+    color: var(--main-text-dull);
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    float: right; 
+    width: 70%; 
+    border-left: 2px solid var(--code-border); 
+    min-height: 1em;
 }
 
 /* metadata for index post */
@@ -133,11 +150,16 @@ a:hover {
 
 /* style link around excerpt on landing page */
 .excerpt-link {
-    color: var(--main-text) !important;
+    color: var(--main-text-dull) !important;
 }
 
 .excerpt-link:hover {
     text-decoration: none;
+}
+
+/* color excerpt on hover */
+.code-box:hover .excerpt-link {
+    color: var(--main-text) !important;
 }
 
 .code-box:hover .left-post {
@@ -146,6 +168,15 @@ a:hover {
 
 /* index post on narrow devices */
 .post-mobile {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    border-left: 2px solid var(--code-border); 
+}
+
+.post-mobile-dull {
+    color: var(--main-text-dull);
     padding-top: 0px; 
     padding-bottom: 0px;
     margin-top: 0px; 
@@ -193,6 +224,11 @@ a:hover {
     margin-left: 30%;
     width: 70%; 
     border-left: 2px solid var(--code-border);
+}
+
+/* remove styling for navivation */
+.nav-para a {
+    text-decoration: none;
 }
 
 /* sidenotes on large screens */
