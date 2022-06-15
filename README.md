@@ -5,9 +5,15 @@
 - Tags with additional special styling or sort.
 - Jekyll cheat sheet [here](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
 
+## notes on jekyll styling
+- Can link to other posts internally with `[Name of Link]({% post_url 2010-07-21-name-of-post %})`
+
 ## bugs and changes
 - Push to remote, and enable custom domain name
 - Set up convenient shortcuts to desktop
+
+## notes on deploy
+- Set up relevant domain and url in `_config.yml`
 
 ## notes on build
 - Local testing with `bundle exec jekyll serve`, run with `--drafts` option to see drafts
