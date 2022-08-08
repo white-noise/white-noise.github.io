@@ -274,7 +274,7 @@ a:hover {
 }
 
 /* in-text sidenote label */
-.note-sym::after {
+.note-sym::before {
     color: var(--main-text-dull);
     content: "["counter(sym-count)"]";
 }
@@ -456,7 +456,7 @@ a:hover {
     /* BEGIN SIDENOTE COLORING */
 
     /* remove in-text sidenote label */
-    .note-sym::after {
+    .note-sym::before {
         color: var(--sidenote-bright);
         content: "";
     }

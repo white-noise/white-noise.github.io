@@ -11,6 +11,7 @@
 ## bugs and changes
 - Push to remote, and enable custom domain name
 - Set up convenient shortcuts to desktop
+- Set up desktop folder with files and a bash script for copying and pushing? or honestly just create a shortcut to relevant `_post` folder on desktop
 
 ## notes on deploy
 - Set up relevant domain and url in `_config.yml`

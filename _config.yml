@@ -22,7 +22,8 @@ title: may
 email: none
 description: >- # this means to ignore newlines until "baseurl:"
   may: a smaller sister site.
-baseurl: "" # the subpath of your site, e.g. /blog
+domain: "white-noise.github.io"
+baseurl: "https://white-noise.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: none
 github_username:  none
