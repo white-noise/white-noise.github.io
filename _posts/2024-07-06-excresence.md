@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Late hours"
+sub-title: "People who write the term 'fin de siècle'"
+date: 2024-07-07 23:00:00 +09
+permalink: "/excresence/"
+location: "Cambridge, MA"
+ordinal: 22
+preview: "On consuming the pine needles, resins, and seeds necessary for 即身仏."
+---
+
+The days have felt flexible, liable to overlap and wring together, like wet tissue. They flimsily mimic one another. Part of this is the heat; I have stayed inside, and when I do leave it is to the same places, the same cafés and bookstores and air-conditioned spots built for tourists and unserious Harvard students. I read <em>Prozac Nation</em> slowly, and am surprised that the read portion, held back by my left hand, has grown so much. I read Volmann. I read old letters sent to me, which I sort and repackage as flat as possible, inside a messenger bag inside of a suitcase now partially pre-packed as I attempt to gauge how much space I will have, and what will have to stay. I get sad that I will have to leave my lamp, which was originally Rosie's and came here in a suitcase five years ago. I get sad preëmptively, because I know that at the critical, late time, I will be unable to feel anything at all.
+
+If I don't write anything down then it will have been like I wasn't alive during this time. I am not sure why I am in my room so much, when I could be checking off unseen corners of Boston and Cambridge. Part of it is that I don't really care much for the summer. I want to bury myself in October, but my bike doesn't get me that direction very fast. I address letters internationally. I drink decaf at a café later in the day because I feel like I need to be somewhere besides my room, and if I drink a second coffee I think horrible things. Right now in <em>Prozac Nation</em> Elizabeth has managed to get her psychiatrist to admit her indefinitely, and is watching figure skaters on television who are not as pretty as the figure skaters of her extreme youth, but who perform their routines solidly.
+
+While I play slow Jenga with my suitcases I let the AC blast and listen to a series of podcasts on Youtube, which in their length make me feel slightly less insane than the alternative of jumping from topic to topic every ten minutes. I decide that Youtube is the most deleterious addiction I have in my life, in part because the days I abstain (already difficult) are physically awful, or else supplemented with double or triple the caffeine, or sugar, or sleep. For now, when the sources of my anxiety are in such relief given their closeness and reality, I don't think I can do much in the way of quitting or seriously weaning, only lowering the amplitude with long content; it may also be the voices, and their relative calm. I think I am very lonely.
+
+A friend stopped by one night. They are leaving for medical school next week; a sudden career change after a few years in biotechnology research. They had gotten back into nicotine by way of pouches (Zyn and the like) and offered me one once we were sitting down. The head rush was the same as when I had smoked a cigarette too quickly years ago, and I feared that because I hadn't eaten (and because the taste was sharp) that my stomach would turn like it had with the cigarette. We both stopped around the same time, though after fifteen or so minutes, when my body finally came down off it all of a sudden, I felt the same immediate and intense nausea as with the cigarette, and retreated to the bathroom for a few minutes, suddenly intensely sweating, until it passed. I don't think I've seen myself so pale in the mirror before. I draped a damp towel over my neck and eventually ate a couple of crackers. Maybe this is unavoidable for me when using nicotine; I have so rarely smoked, and have never been stable with nausea anyway.
+
+I wonder where I will live in two months. I wonder if I will ever live with someone for a long period of time, or communicate with someone in a way that doesn't pivot on some core dislocation. I consider outlandish tasks like trying to transport my bike in addition to my suitcases, or buying an expensive jacket from Kapital, or shirking my job to write a novel about just how sad and unable to write I have been, or spending all of my time to get the highest paying job imaginable with the intent of shirking it in another three years. I sip elderflower tonic and eat raw bell peppers and try to really think about what would have to happen if I were to continue to feel this anhedonic for more than another six months.
+
+The first morning after returning from my NYC trip, feverish and aching from food poisoning, I was awoken by a woman screaming outside an adjacent building, down at street level. She was clearly not present—people say 'not all there'—just screaming horribly for as long as I was awake before falling asleep again. My dreams from then are lost; I didn't write them down. They come so infrequently, and are so fragile to the morning. When I awake I drink large amounts of water from my Hydroflask. I draw one set of blinds partway up, to let the day in gradually.
+
+I will try to work on eating more, and demarcating the days more earnestly. There are bureaucratic tasks left to complete at discrete locations around Boston and Cambridge, which often have a buoying effect given their obvious success or failure. There is less to be done about the weather, though slipping among warm nights is impossible otherwise, and the temperate mornings, before the sun has had a chance to make the concrete seethe, are beautiful. 
+
+The person who read <em>Prozac Nation</em> before me underlined words they weren't familiar with: surcease, anomie, fin de siècle, ague.
+
+
