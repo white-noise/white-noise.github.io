@@ -24,3 +24,6 @@
 - For figures, use `-fig Figure text. fig-![image-title](/assets/img/img_name.jpg)` followed by `{: .right-para }` on new line
 - For sidenotes, use `~~` strikethrough without surrounding space
 - Can change syntax highlighting of markdown in `PackageResourceViewer`
+
+## Further caveats
+- [x] Add the following to the ~/.bash_profile or ~/.zshrc file: `source /opt/homebrew/opt/chruby/share/chruby/chruby.sh`
