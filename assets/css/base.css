@@ -1,6 +1,6 @@
 :root {
     --main-bg: #000000;
-    --main-text:  #00ff7a; /*#46ff00*/ /* #ff142a for some fun */
+    --main-text: #00ff7a; /*#46ff00*/ /* #ff142a for some fun */
     --main-text-dull: #008942;
     --main-text-bright: #008942; /* pending */
     --border: #00ff7a;
@@ -20,18 +20,18 @@
     --code-border: var(--border);
     /* external links */
     --external-link-bg: #020; /* pending */
-    --external-link-color: #0C8; /* pending */
+    --external-link-color: #0c8; /* pending */
     --external-link-hover-bg: #020; /* pending */
-    --external-link-hover-color: #0FB; /* pending */
+    --external-link-hover-color: #0fb; /* pending */
     /* sidenotes */
     --sidenote-bright: #008942;
     --sidenote-hover: #00ff7a; /* pending */
     /* glow effects */
-    --init-img-opacity: 1.0;
+    --init-img-opacity: 1;
     --fin-img-opacity: 0.7;
-    --init-title-opacity: 1.0;
+    --init-title-opacity: 1;
     --fin-title-opacity: 0.6;
-    --init-subtitle-opacity: 1.0;
+    --init-subtitle-opacity: 1;
     --fin-subtitle-opacity: 0.6;
 }
 
@@ -39,15 +39,15 @@ body {
     background-color: var(--main-bg);
     color: var(--main-text);
     font-size: 12pt;
-    font-family: 'Ubuntu Mono', sans-serif;
+    font-family: "Ubuntu Mono", sans-serif;
 
     /* sidenote and fig counters */
     counter-reset: sym-count img-sym-count head-count;
 }
 
 img {
-    width:100%; 
-    margin-left:-1em;
+    width: 100%;
+    margin-left: -1em;
 }
 
 a {
@@ -67,10 +67,11 @@ h3 {
     display: block;
     font-style: italic;
     counter-increment: head-count;
+    margin-bottom: 1em;
 }
 
 h3::before {
-    content: "["counter(head-count, lower-greek)"] ";
+    content: "[" counter(head-count, lower-greek) "] ";
 }
 
 .navlink {
@@ -121,37 +122,37 @@ h3::before {
 
 /* title and summary for index post */
 .right-post {
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px; 
-    margin-bottom: 0px; 
-    float: right; 
-    width: 70%; 
-    border-left: 2px solid var(--code-border); 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    width: 70%;
+    border-left: 2px solid var(--code-border);
     min-height: 4.5em;
 }
 
 .right-post-dull {
     color: var(--main-text-dull);
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px; 
-    margin-bottom: 0px; 
-    float: right; 
-    width: 70%; 
-    border-left: 2px solid var(--code-border); 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    width: 70%;
+    border-left: 2px solid var(--code-border);
     min-height: 1em;
 }
 
 /* metadata for index post */
 .left-post {
     color: var(--main-text-dull);
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px; 
-    margin-bottom: 0px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: right;
-    float: left; 
+    float: left;
     width: 30%;
 }
 
@@ -185,40 +186,40 @@ h3::before {
 
 /* index post on narrow devices */
 .post-mobile {
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px; 
-    margin-bottom: 0px; 
-    border-left: 2px solid var(--code-border); 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left: 2px solid var(--code-border);
 }
 
 .post-mobile-dull {
     color: var(--main-text-dull);
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px; 
-    margin-bottom: 0px; 
-    border-left: 2px solid var(--code-border); 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left: 2px solid var(--code-border);
 }
 
 /* general post para */
 .right-para {
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px; 
-    margin-bottom: 1em; 
+    margin-top: 0px;
+    margin-bottom: 1em;
     margin-left: 30%;
-    width: 70%; 
+    width: 70%;
     border-left: 2px solid var(--code-border);
 }
 
 .post-content p {
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px; 
-    margin-bottom: 1em; 
+    margin-top: 0px;
+    margin-bottom: 1em;
     margin-left: 30%;
-    width: 70%; 
+    width: 70%;
     border-left: 2px solid var(--code-border);
 }
 
@@ -234,12 +235,12 @@ h3::before {
 
 /* intro nav para in post */
 .nav-para {
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px; 
+    margin-top: 0px;
     margin-bottom: 0em;
     margin-left: 30%;
-    width: 70%; 
+    width: 70%;
     border-left: 2px solid var(--code-border);
 }
 
@@ -287,19 +288,19 @@ h3::before {
 /* fig label number */
 .note-img::before {
     color: var(--main-text-dull);
-    content: "[fig "counter(img-sym-count)"] ";
+    content: "[fig " counter(img-sym-count) "] ";
 }
 
 /* in-text sidenote label */
 .note-sym::before {
     color: var(--main-text-dull);
-    content: "["counter(sym-count)"]";
+    content: "[" counter(sym-count) "]";
 }
 
 /* sidenote label */
 .note-para::before {
     color: var(--main-text-dull);
-    content: "["counter(sym-count)"] ";
+    content: "[" counter(sym-count) "] ";
     position: relative;
     vertical-align: baseline;
 }
@@ -331,12 +332,12 @@ h3::before {
 
 .code-box {
     color: var(--code-fg) !important;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: "Ubuntu Mono", monospace;
     overflow: auto;
     word-wrap: break-word;
-    padding-top: 0px; 
-    padding-bottom: 0px; 
-    margin-top: 0px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -418,7 +419,7 @@ h3::before {
         opacity: var(--init-img-opacity);
     }
     to {
-     opacity: var(--fin-img-opacity);
+        opacity: var(--fin-img-opacity);
     }
 }
 
@@ -451,13 +452,11 @@ h3::before {
 /* bootstrap specified breakpoints */
 /* large devices and smaller (less than 992px) 991.98 */
 @media (max-width: 991.98px) {
-
 }
 
 /* bootstrap specified breakpoints */
 /* medium devices and smaller (less than 768px) 767.98 */
 @media (max-width: 767.98px) {
-
     .note-para {
         color: var(--sidenote-bright);
         float: none;
@@ -477,7 +476,6 @@ h3::before {
         color: var(--sidenote-bright);
         content: "";
     }
-
 
     /* highlight sidenote on hover */
     .note-para:hover {
@@ -531,21 +529,28 @@ h3::before {
 
     /* END SIDENOTE COLORING */
 
+    /* Main style for internal high-level divisions */
+    h3 {
+        margin-left: 0em;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
     /* widen general post para */
     .right-para {
         margin-left: 0em;
-        width: 100%; 
+        width: 100%;
     }
 
     .post-content p {
         margin-left: 0em;
-        width: 100%; 
+        width: 100%;
     }
 
     /* widen nav para */
     .nav-para {
         margin-left: 0em;
-        width: 100%; 
+        width: 100%;
     }
 
     .note-img {
