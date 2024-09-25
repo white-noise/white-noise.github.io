@@ -8,6 +8,8 @@
     --nav-bg: #002011;
     --link: #000; /* pending */
     --link-hover: #000; /* pending */
+    --main-alert: #ff1144;
+    --main-alert-dull: #38000c;
     /* quote environment */
     --quote-fg: #00ff7a; /* pending */
     --quote-bg: #002011; /* pending */
@@ -40,7 +42,7 @@ body {
     font-family: 'Ubuntu Mono', sans-serif;
 
     /* sidenote and fig counters */
-    counter-reset: sym-count img-sym-count;
+    counter-reset: sym-count img-sym-count head-count;
 }
 
 img {
@@ -54,6 +56,21 @@ a {
 
 a:hover {
     color: var(--main-text);
+}
+
+/* Main style for internal high-level divisions */
+h3 {
+    margin-left: 30%;
+    width: 70%;
+    font-size: 12pt;
+    color: var(--main-alert);
+    display: block;
+    font-style: italic;
+    counter-increment: head-count;
+}
+
+h3::before {
+    content: "["counter(head-count, lower-greek)"] ";
 }
 
 .navlink {
