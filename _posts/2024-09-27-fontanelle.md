@@ -25,7 +25,7 @@ I've reproduced two pages of the booklet below, with colors modified and effects
 -fig The second half of 渋谷区, from the opposite page as the map above, showing the station proper, near the larger orange symbol. An inability to make the image totally flat has necessitated cropping, leading to missing interstitial area. fig- <img src="/assets/img/shibuya_map_2.jpg">
 {: .right-para }
 
-The first map shows how I might walk to フグレン, the late night cafe from before, which I can see now is in 富ヶ谷一丁目, and the long road that traces down through 神山町 ~~Containing SPBS and the small fragrant roastery 豆虎 (bean tiger).~~ to 田川町 and then the main station proper, along which I've walked too many times.
+The first map shows how I might walk to フグレン, the late night cafe from before, which I can see now is in 富ヶ谷一丁目 (specifically 16番), and the long road that traces down through 神山町 ~~Containing SPBS and the small fragrant roastery 豆虎 (bean tiger).~~ to 田川町 and then the main station proper, along which I've walked too many times.
 
 I think that maps and cartography must be among those interests that some people, especially the academically-adjacent or suburban-raised, can cling to and inhabit so strongly that they get pale and stringy. Something in this also relates to the subject of 'geography' which even when I was a child seemed outmoded and taught only halfheartedly, paying lip to some idyl of a well-rounded aristocratic child. The names of rivers, of their final splayed deltas, of mountain ranges and passes and inland seas. The Sahara or the Mojave or the Gobi. *Tierra del Fuego*.
 
