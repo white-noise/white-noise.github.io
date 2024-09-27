@@ -22,7 +22,7 @@ I've reproduced two pages of the booklet below, with colors modified and effects
 -fig A map centered on 渋谷区, though a small corner of 世田谷区, and the street on which I live (within 北沢一丁目), peeks out; my apartment is marked on the left-hand edge with a yellow encircled star. My local station, 東北沢駅, is just above in green. fig- <img src="/assets/img/shibuya_map.jpg">
 {: .right-para }
 
--fig The second half of 渋谷区, from the opposite page as the map above, showing the station proper, near the larger orange symbol. An inability to make the image totally flat has necessitated cropping, leading to missing interstitial area. fig- <img src="/assets/img/shibuya_map_2.jpg">
+-fig The second half of 渋谷区, from the opposite page as the map above, showing the station proper, near the larger orange symbol. An inability to make the image totally flat has necessitated cropping, leading to missing interstitial area. fig- <img src="/assets/img/shibuya_map_2_alt.jpg">
 {: .right-para }
 
 The first map shows how I might walk to フグレン, the late night cafe from before, which I can see now is in 富ヶ谷一丁目 (specifically 16番), and the long road that traces down through 神山町 ~~Containing SPBS and the small fragrant roastery 豆虎 (bean tiger).~~ to 田川町 and then the main station proper, along which I've walked too many times.
