@@ -6,7 +6,7 @@ date: 2024-11-11 23:00:00 +09
 permalink: "/decreptitude/"
 location: "沖縄県国頭郡恩納村"
 ordinal: 34
-preview: "Occasionally my siblings call me and talk about what's been going on in their lives, and very simplistically I don't have the heart to unload on them, which must be a greater cruelty."
+preview: "Occasionally my siblings call me and talk about what's been going on in their lives, and very simplistically I don't have the heart to unload on them, which must be cruel."
 ---
 
 Things have gotten so bad that I just googled 'vr headset price' in complete earnest. I feel unable to watch movies. I nap in the evenings sometime, only waking once it's too late to do anything besides go to bars, the prospect of which repels me, so I just walk around my neighborhood and sulk. I pass a couple outside a convenience store and the woman laughs about something freely with her mouth full of food and the whole scène nearly makes me start crying. The words people usually throw around like wretched and maudlin start to fizzle at the periphery of my increasingly lame thoughts. On the train I read the entire Wikipedia article for the 'Rorschach test', realizing that for all its appearances in popular media I have never once read anything remotely formal about its purpose. Perusal of related articles reveals terms like pathognomic, then extensive glosses of Freudian concepts within articles not explicitly related to Freud, either written in intense excitement or boredom by rail-thin graduate students.
@@ -32,7 +32,7 @@ I have the egocentric tendency to see the online presence of the people I am est
 In some attempt to think fewer things yesterday I biked eleven miles on what may have been one of the final truly warm days of the year. I followed the 神田 river out towards 吉祥寺 but took the large artery-roads back, slightly allergic to the idea of retracing my steps. The neighborhoods get lower and poorer as you push out, at least until the major shopping hub and suburb of 吉祥寺. I have new aspirations to head southwest next time, like out towards 調布 or 登戸, where the mansions~~A term here used to refer to the lower (2 or 3 storey) steel- or wood-framed Japanese apartment buildings that are considered more affordable.~~ get a little rusty or vine-covered or otherwise yellowed by the sun. Someday maybe I will try to bike to 厚木 and back, which pushes something like 80km, but I think not for a long while yet, and I would want to swap my tires for cushier 28s, rather than the current frankenstein arrangement. The ride was easy and snaked on the way out, with more open quiet straight wide streets on the way back. Two or three times Japanese men in brightly colored bibs and aero-helmets passed me by, but most of the cyclists rode electric-assited ママチャリ. I log the ride on Strava, which makes me feel like it could be 2018.
 
 (As I write this in my local Komeda Coffee the couple next to me clasps hands and conspiratorially smile at each other across their booth table; I listen to Kaneko Ayano loudly in my headphones and feel like that blurry Squidward crying meme.) I returned to writing the above paragraph but have come back here as one of them feeds something to the other off their plate with a fork, like in an early 2000s romantic comedy.
-{: .right-para }
+{: .quote}
 
 ### On the subtropics
 
