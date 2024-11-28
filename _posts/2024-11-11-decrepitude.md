@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "While I remember them poorly, the feeling that I've been having increasingly anxious dreams recently has intensified."
+title: "While I remember them poorly, the feeling that I've been having increasingly anxious dreams recently has intensified"
 sub-title: "Ferns grow from abandoned moist surfaces here, and the conifers have long delicate needles."
 date: 2024-11-11 23:00:00 +09
 permalink: "/decreptitude/"
